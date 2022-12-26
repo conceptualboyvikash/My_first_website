@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;padding: 0;
+}
+
+.baby_head
+{
+    /* display: flex ; */
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    translate:0px -47px;    
+    
+}
+li{
+    float: right;
+    padding: 10px;
+}
+.brand_name
+{
+    /* display: inline-block; */
+    background-color: rgb(219 250 215 / 29%);
+    padding: 51px;
+    /* background-image: url('img/backgroundimg.jpeg'); */
+   /* margin: 51px; */
+}
+.brand_name h1{
+    font-size: 4em ;
+    color:#5600ff;
+}
+.brand_name h5
+{
+    font-style: oblique;
+    translate: 12px;
+    columns: rgb(9 158 252);
+}
+.about_me{
+    margin: 10px;
+}
+@media (min-width:50em) {
+    
+    
+}
